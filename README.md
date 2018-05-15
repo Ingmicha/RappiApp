@@ -1,4 +1,4 @@
-# Readmi
+# Readme
 Capas de la aplicacion
 
   - Data
@@ -23,15 +23,15 @@ En RETROFIT se encuentra la configracion del cliente para realizar las peticione
 
 Tambien en DATA se encuentra el modelo de los objetos que se manejan en la aplicacion, en este caso son 2, un objeto RESULT y un objeto MOVIE.
 
-#INTERATOR
+# INTERATOR
 
 Aqui se manejan los servicios de los cuales el presnetador va a consumir ya responder dependiendo de que metodo de la api se desee consumir.
 
-#PRESNETER
+# PRESNETER
 
 Aqui manejo las respuestas al consumir las Api, si traen o no resultados y se envia la informacion que se valla a manejar sobre la vista, con una interfaz donde se manejan los progressbar, cuando no encuentra un resultado etc.
 
-#VIEW
+# VIEW
 
 Se manejan la UI que el usuario ve, se creo un fragmento y una activity, donde el fragmento llama al presentador y se le implementa la interfaz que maneja el presentador para la comunicacion entre el presentador y la vista.
 
